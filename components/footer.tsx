@@ -8,9 +8,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center space-x-2">
             <Heart className="h-5 w-5 text-green-500" />
-            <span className="text-sm text-muted-foreground">
-              Healthline Connect - Your AI-powered healthcare companion
-            </span>
+            <span className="text-sm text-muted-foreground">LifeLens - Your AI-powered healthcare companion</span>
           </div>
 
           <div className="flex items-center space-x-2 text-sm text-muted-foreground">

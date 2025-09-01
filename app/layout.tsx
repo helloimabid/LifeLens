@@ -8,7 +8,7 @@ import { Footer } from "@/components/footer"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Healthline Connect - AI-Powered Health Triage",
+  title: "LifeLens - AI-Powered Health Triage",
   description: "Your AI-powered first step to better healthcare. Get instant symptom analysis and health guidance.",
   generator: "v0.app",
 }
@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable} flex flex-col min-h-screen`}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} storageKey="healthline-theme">
+        <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false} storageKey="lifelens-theme">
           <Navigation />
           <main className="flex-1">{children}</main>
           <Footer />
